@@ -7,11 +7,12 @@ function paragraphSelector(){
 function lastImageSelector(){
   //var varInternal = $('img');
   //console.log("-----------" + varInternal[0].innerHTML);
+  //oh there's a simpler way.
   return $('img:last');
 }
 
 function ninjaBabySelector(){
-
+  return
 }
 
 function divSelector(){
