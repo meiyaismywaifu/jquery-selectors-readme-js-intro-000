@@ -6,8 +6,8 @@ function paragraphSelector(){
 
 function lastImageSelector(){
   var varInternal = $('img');
-  console.log("-----------" + varInternal[0].innerHTML);
-  return "00000000000";
+  //console.log("-----------" + varInternal[0].innerHTML);
+  return varInternal[varInternal.length - 1];
 }
 
 function ninjaBabySelector(){
