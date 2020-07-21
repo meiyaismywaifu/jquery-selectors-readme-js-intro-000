@@ -5,9 +5,9 @@ function paragraphSelector(){
 }
 
 function lastImageSelector(){
-  var varInternal = $('img');
-  console.log("-----------" + varInternal[0].innerHTML);
-  // return varInternal[varInternal.length - 1];
+  //var varInternal = $('img');
+  //console.log("-----------" + varInternal[0].innerHTML);
+  return #('img: last');
 }
 
 function ninjaBabySelector(){
